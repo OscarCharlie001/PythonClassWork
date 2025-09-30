@@ -17,7 +17,7 @@
 import random
 while True:
     user_input = input(
-        "You wan play abi you no wan play dice? (yes/y or no/n): ").lower()
+        "You wan play abi you no wan play dice? (yes/y or no/n): ").lower().strip()
     if user_input in ['yes', 'y']:
         dice1 = random.randint(1, 6)
         dice2 = random.randint(1, 6)
